@@ -139,7 +139,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(8, 8, 8, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -156,7 +156,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(5, 5, 5);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -332,15 +332,18 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    color: #000000;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    color: #000000;
 }
 
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    color: #000000;
 }
 
 .navbar-toggle {
@@ -378,7 +381,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #000000;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -395,6 +398,7 @@ a:hover {
     .nav-center .nav > li {
         float: none;
         display: inline-block;
+        color: #000000;
     }
     .nav-center .site-navigation {
         position: relative;
@@ -413,6 +417,7 @@ a:hover {
     background: none!important;
     display: block;
     padding: 14px 15px;
+    color: #000000;
 }
 
 nav .caret {
@@ -710,7 +715,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    padding: 45px;
 }
 
 h2 {

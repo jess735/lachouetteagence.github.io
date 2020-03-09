@@ -58,7 +58,7 @@ a:hover {
     padding: 50px;
 }
 
-.bloc-sm {
+.bloc-sm{
     padding: 20px 50px;
 }
 
@@ -294,11 +294,14 @@ a:hover {
 }
 
 .navbar {
+   
     margin-bottom: 0;
     z-index: 1;
+
 }
 
 .navbar-brand {
+    
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
@@ -308,6 +311,7 @@ a:hover {
 }
 
 .navbar-brand img {
+    
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
@@ -322,6 +326,7 @@ a:hover {
 }
 
 .navbar .nav {
+    
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -345,6 +350,7 @@ a:hover {
     background: transparent;
     color: #000000;
 }
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -518,28 +524,31 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-}
-
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
+    display: block;
+    width: 80%;
+    height: 34px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
     font-size: 14px;
-    opacity: 1;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid rgb(187, 74, 9);
+    border-radius: 4px;
 }
+.form-control1 {
+    border-color: rgba(0, 0, 0, .1);
+    display: block;
+    width: 80%;
+    height: 100px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid rgb(187, 74, 9);
+    border-radius: 4px;
+}
+
 
 a[data-lightbox] {
     position: relative;
@@ -649,9 +658,7 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-a{
-    padding: 48px;
-}
+
 
 h1,
 h2,
@@ -691,10 +698,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
+    color: #FEC8A7;
     max-width: 600px;
     margin: auto auto auto auto;
 }
@@ -715,7 +723,9 @@ p {
 
 .social {
     max-width: 400px;
+    max-height: 110px;
     margin: auto;
+    display: flex;
 }
 
 h2 {
@@ -754,6 +764,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -1026,7 +1037,8 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding : 5px;
+
     }
     .close-lightbox {
         display: inline-block;
